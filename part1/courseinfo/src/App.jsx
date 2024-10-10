@@ -21,14 +21,6 @@ const Body = (props)=>{
   )
 }
 
-const Total = (props) =>{
-  return (
-    <>
-      <p>Number of exercises {props.total}</p>
-    </>
-  )
-}
-
 const App = () => {
   const course = 'Half Stack application development'
   const parts = [
